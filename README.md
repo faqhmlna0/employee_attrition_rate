@@ -10,7 +10,6 @@ Jaya Jaya Maju adalah perusahaan multinasional dengan lebih dari 1000 karyawan. 
 
 ### Cakupan Proyek
 - Melakukan eksplorasi dan analisis terhadap data karyawan untuk mengidentifikasi pola attrition.
-- Membangun model prediksi risiko attrition dengan menggunakan algoritma machine learning.
 - Menyusun business dashboard interaktif berbasis data untuk membantu tim HR dalam pengambilan keputusan strategis.
 
 ### Persiapan
@@ -19,6 +18,8 @@ Cara Menjalankan di Google Colab
 - Buka file notebook .ipynb menggunakan Google Colab.
 - Pastikan runtime Colab diatur ke GPU (jika dibutuhkan).
 - Jalankan sel-sel kode secara berurutan.
+
+Untuk proyek ini saya hanya melakukan analisis data saja tanpa menggunakan model machine learning.
 
 ## Business Dashboard
 
