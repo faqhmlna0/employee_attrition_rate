@@ -29,45 +29,44 @@ Business dashboard dibangun menggunakan Google Looker Studio untuk membantu HR m
 
 Berdasarkan dashboard yang telah dibuat didapatkan beberapa hal penting yang perlu di pertimbangkan sebagai berikut:
 
-## Slide 1
-![alt text](https://github.com/Sopyaan/human_resources_analysis/blob/main/dashboard/Slide1%20-%20dashboard.png?raw=true)
-- Total Karyawan: 1,058 orang
-- Rata-rata Usia Karyawan: 37.06 tahun
-- Rata-rata Kepuasan Kerja: 2.75 / 4
-- Tingkat Attrition: 16.9% dari total karyawan telah keluar dari perusahaan. Visualisasi pie chart menunjukkan bahwa mayoritas karyawan (83.1%) masih aktif.
-- Grafik garis menunjukkan bahwa attrition paling sering terjadi pada kelompok usia 30–40 tahun, yang juga merupakan kelompok usia dominan dalam organisasi.
-- Attrition Berdasarkan Lembur (Overtime) menunjukkan bahwa karyawan yang bekerja lembur memiliki tingkat attrition yang lebih tinggi dibandingkan yang tidak lembur.
-- Tingkat attrition tertinggi terjadi pada karyawan yang belum menikah (single), sementara karyawan yang menikah cenderung lebih stabil dan loyal.
+## Dashboard
+- Total Karyawan: 1,058 orang, terdiri dari 620 laki-laki dan 438 perempuan.
+- Rata-rata Usia Karyawan: 37.06 tahun, menandakan mayoritas karyawan berada pada usia produktif dan matang secara karier.
 
-## Slide 2
-![alt text](https://github.com/Sopyaan/human_resources_analysis/blob/main/dashboard/Slide2%20-%20dashboard.png?raw=true)
+Distribusi Attrition:
+- Tingkat attrition sebesar 16.9%, yang berarti sebagian kecil karyawan telah meninggalkan perusahaan.
+- Ditampilkan dalam bentuk pie chart, mayoritas karyawan (83.1%) masih aktif bekerja.
 
-Analisis berdasarkan Job Level dan Years Since Last Promotion menunjukkan bahwa:
-- Mayoritas attrition terjadi pada karyawan dengan Job Level 1 dan 2, yaitu posisi awal karier.
-- Sebagian besar karyawan yang keluar belum pernah mendapatkan promosi atau baru bekerja kurang dari 1 tahun sejak terakhir dipromosikan.
-- Pola ini mengindikasikan bahwa early attrition (keluar dalam masa awal bekerja) merupakan tantangan utama bagi organisasi.
+Attrition Berdasarkan Departemen:
+- Departemen dengan jumlah attrition tertinggi adalah Research & Development, diikuti oleh Sales.
+- Namun secara persentase, departemen dengan rasio attrition paling tinggi adalah Sales, karena proporsi keluarnya lebih besar dari total pegawai departemen tersebut.
 
-Berdasarkan departemen, tingkat attrition tertinggi terjadi pada:
-- Sales Executive, Research Scientist, dan Laboratory Technician.
-- Fungsi-fungsi ini umumnya memiliki tekanan kerja tinggi, target ketat, atau ketergantungan pada performa individu.
+Attrition Berdasarkan Overtime:
+- Karyawan yang bekerja lembur memiliki tingkat attrition yang jauh lebih tinggi dibanding yang tidak lembur.
+- Ini mengindikasikan bahwa beban kerja tambahan berpengaruh besar terhadap keputusan karyawan untuk resign.
 
-Sebaliknya, departemen seperti Human Resources dan Research Director mencatat attrition yang jauh lebih rendah, mengindikasikan stabilitas yang lebih besar pada level strategis atau administratif.
+Attrition Berdasarkan Bidang Pendidikan:
+- Meskipun distribusi relatif merata, terlihat bahwa attrition sedikit lebih tinggi pada bidang dengan latar belakang pendidikan yang lebih rendah.
+
+Attrition Berdasarkan Work-Life Balance:
+- Tingkat attrition lebih tinggi pada karyawan dengan penilaian work-life balance rendah, memperkuat pentingnya keseimbangan antara kehidupan kerja dan pribadi.
 
 ## Conclusion
 
-Melalui analisis data dan pemodelan, diperoleh beberapa insight utama:
-- Karyawan usia 30–40 tahun, belum menikah, dan yang bekerja lembur memiliki risiko keluar lebih tinggi.
-- Attrition Berdasarkan Lembur (Overtime) menunjukkan bahwa karyawan yang bekerja lembur memiliki tingkat attrition yang lebih tinggi dibandingkan yang tidak lembur.
-- Jabatan di level awal karier (Job Level 1 dan 2) dan mereka yang belum pernah dipromosikan juga memiliki tingkat attrition tinggi.
-- Logistic Regression digunakan sebagai model prediktif, dengan akurasi sekitar 89% dan recall yang baik untuk mendeteksi karyawan yang berpotensi keluar.
-- Dashboard interaktif memudahkan tim HR dalam mengawasi faktor-faktor ini secara real time.
+Melalui analisis data, diperoleh beberapa insight utama:
+- Tingkat attrition tercatat sebesar 16.9%, dengan mayoritas karyawan (83.1%) masih aktif bekerja.
+- Karyawan laki-laki mendominasi jumlah karyawan, namun attrition relatif tersebar di kedua gender.
+- Departemen Sales memiliki proporsi attrition tertinggi dibandingkan departemen lain, mengindikasikan tekanan atau tantangan yang lebih besar pada divisi ini.
+- Karyawan yang lembur (Overtime) memiliki risiko attrition yang jauh lebih tinggi, memperlihatkan bahwa workload berlebih berdampak signifikan pada keputusan resign.
+- Work-Life Balance yang buruk berkorelasi dengan tingginya attrition—karyawan yang menilai keseimbangan kerjanya rendah lebih banyak keluar.
+- Bidang pendidikan dan tingkat pendidikan juga menunjukkan variasi tingkat attrition, meskipun tidak terlalu signifikan dibanding faktor lembur dan departemen.
 
 ### Rekomendasi Action Items 
 
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan yaitu: 
-- Fokus pada Karyawan Usia 30–40 Tahun: Segmentasi ini perlu mendapatkan perhatian lebih dalam hal pengembangan karier dan keseimbangan kerja-hidup.
-- Evaluasi Beban Kerja: Tingginya attrition di kelompok yang bekerja lembur menandakan perlunya review terhadap kebijakan overtime.
-- Perkuat Engagement Karyawan Muda & Single: Program retensi yang dipersonalisasi berdasarkan usia dan status sosial dapat membantu menurunkan tingkat attrition.
-- Implementasi onboarding yang komprehensif dan mentorship program di Job Level rendah.
-- Lakukan review terhadap tekanan kerja di departemen dengan attrition tinggi.
-- Gunakan data analitik SDM untuk memprediksi risiko keluar dini (early attrition risk).
+Untuk mengurangi tingkat attrition dan meningkatkan retensi karyawan, berikut beberapa rekomendasi yang dapat diterapkan oleh tim HR:
+1. Evaluasi Beban Kerja pada Divisi Sales dan R&D, Tinjau ulang ekspektasi, target, serta dukungan kerja di divisi dengan tingkat attrition tinggi.
+2. Manajemen Lembur yang Lebih Ketat dan Terukur, Buat kebijakan pembatasan lembur dan insentif kompensasi yang adil agar tidak menjadi penyebab burnout.
+3. Perkuat Program Work-Life Balance, Fasilitasi program fleksibilitas kerja, cuti tambahan, dan sesi wellbeing untuk karyawan yang merasa beban hidup-kerjanya tidak seimbang.
+4. Pemetaan Risiko Attrition Berdasarkan Profil Karyawan, Gunakan dashboard ini secara aktif untuk mengidentifikasi kelompok rentan (misal: usia tertentu, status lembur, departemen) dan lakukan intervensi dini.
+5. Pendekatan Personal dan Retensi di Level Awal Karier, Sediakan jalur karier dan mentoring khusus untuk posisi entry-level, agar mereka merasa diperhatikan dan berkembang.
+6. Monitoring Real-Time oleh Tim HR, Manfaatkan dashboard sebagai alat pemantauan attrition secara berkala, dan integrasikan feedback karyawan dalam pengambilan keputusan.
