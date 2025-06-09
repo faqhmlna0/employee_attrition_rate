@@ -21,7 +21,7 @@ Cara Menjalankan di Google Colab
 
 Untuk proyek ini saya hanya melakukan analisis data saja tanpa menggunakan model machine learning.
 
-[Data Source:]()
+[Data Source:](https://github.com/faqhmlna0/employee_attrition_rate/blob/main/employee_data.csv)
 
 ## Business Dashboard
 
