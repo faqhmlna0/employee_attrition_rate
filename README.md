@@ -21,6 +21,8 @@ Cara Menjalankan di Google Colab
 
 Untuk proyek ini saya hanya melakukan analisis data saja tanpa menggunakan model machine learning.
 
+[Data Source:]()
+
 ## Business Dashboard
 
 Business dashboard dibangun menggunakan Google Looker Studio untuk membantu HR menganalisis attrition karyawan. Data diklasifikasikan berdasarkan usia, status pernikahan, serta apakah karyawan bekerja lembur, dengan metrik utama meliputi jumlah total karyawan, rata-rata usia, dan rata-rata kepuasan kerja.
