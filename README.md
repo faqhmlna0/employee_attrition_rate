@@ -14,6 +14,7 @@ Jaya Jaya Maju adalah perusahaan multinasional dengan lebih dari 1000 karyawan. 
 
 ### Persiapan
 Sumber data:
+Dataset yang digunakan berasal dari dicoding untuk latihan menyelesaikan permasalahan data science. Dataset dapat didownload dibawah ini
 [Data Source:](https://github.com/faqhmlna0/employee_attrition_rate/blob/main/employee_data.csv)
 
 Cara Menjalankan di Google Colab
