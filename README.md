@@ -3,8 +3,6 @@
 ## Business Understanding
 Jaya Jaya Maju adalah perusahaan multinasional dengan lebih dari 1000 karyawan. Namun, perusahaan menghadapi tantangan serius dalam hal pengelolaan karyawan, salah satunya adalah tingginya tingkat attrition (rasio karyawan keluar). Saat ini, attrition rate mencapai lebih dari 10% yang dikhawatirkan dapat memengaruhi performa perusahaan secara keseluruhan.
 
-[Data Source:](https://github.com/faqhmlna0/employee_attrition_rate/blob/main/employee_data.csv)
-
 ### Permasalahan Bisnis
 - Tingginya tingkat attrition yang sulit dikendalikan.
 - Tim HR kesulitan mengidentifikasi faktor-faktor utama yang menyebabkan karyawan keluar.
@@ -15,6 +13,9 @@ Jaya Jaya Maju adalah perusahaan multinasional dengan lebih dari 1000 karyawan. 
 - Menyusun business dashboard interaktif berbasis data untuk membantu tim HR dalam pengambilan keputusan strategis.
 
 ### Persiapan
+Sumber data:
+[Data Source:](https://github.com/faqhmlna0/employee_attrition_rate/blob/main/employee_data.csv)
+
 Cara Menjalankan di Google Colab
 
 - Buka file notebook .ipynb menggunakan Google Colab.
