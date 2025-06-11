@@ -3,6 +3,8 @@
 ## Business Understanding
 Jaya Jaya Maju adalah perusahaan multinasional dengan lebih dari 1000 karyawan. Namun, perusahaan menghadapi tantangan serius dalam hal pengelolaan karyawan, salah satunya adalah tingginya tingkat attrition (rasio karyawan keluar). Saat ini, attrition rate mencapai lebih dari 10% yang dikhawatirkan dapat memengaruhi performa perusahaan secara keseluruhan.
 
+[Data Source:](https://github.com/faqhmlna0/employee_attrition_rate/blob/main/employee_data.csv)
+
 ### Permasalahan Bisnis
 - Tingginya tingkat attrition yang sulit dikendalikan.
 - Tim HR kesulitan mengidentifikasi faktor-faktor utama yang menyebabkan karyawan keluar.
@@ -21,7 +23,23 @@ Cara Menjalankan di Google Colab
 
 Untuk proyek ini saya hanya melakukan analisis data saja tanpa menggunakan model machine learning.
 
-[Data Source:](https://github.com/faqhmlna0/employee_attrition_rate/blob/main/employee_data.csv)
+Setup Environment
+Proyek ini dikembangkan dan dijalankan menggunakan Google Colaboratory (Colab) untuk kemudahan akses cloud, runtime GPU, serta kolaborasi. Namun, seluruh kode dan dependensi telah disusun sedemikian rupa agar tetap dapat dijalankan secara lokal menggunakan Visual Studio Code (VS Code).
+
+Cara Menjalankan di VS Code 
+- Buat dan aktifkan virtual environment (opsional namun direkomendasikan):
+
+Untuk Linux/Mac:
+python -m venv venv
+source venv/bin/activate
+
+Untuk Windows:
+python -m venv venv
+.\venv\Scripts\activate
+
+- Install semua dependensi dari file requirements.txt:
+
+pip install -r requirements.txt
 
 ## Business Dashboard
 
