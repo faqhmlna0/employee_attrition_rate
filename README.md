@@ -26,22 +26,17 @@ Untuk proyek ini saya hanya melakukan analisis data saja tanpa menggunakan model
 Proyek ini dikembangkan dan dijalankan menggunakan Google Colaboratory (Colab) untuk kemudahan akses cloud, runtime GPU, serta kolaborasi. Namun, seluruh kode dan dependensi telah disusun sedemikian rupa agar tetap dapat dijalankan secara lokal menggunakan Visual Studio Code (VS Code).
 
 Cara Menjalankan di VS Code
-Setup Environment
-'''
-- Buat dan aktifkan virtual environment (opsional namun direkomendasikan):
-
-Untuk Linux/Mac:
+Setup Environment:
+```
+# Setup virtual environment
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate  # Jika menggunakan Unix/Mac
+venv\Scripts\activate     # Jika menggunakan Windows
 
-Untuk Windows:
-python -m venv venv
-.\venv\Scripts\activate
-'''
 
-- Install semua dependensi dari file requirements.txt:
-
+# Install dependencies
 pip install -r requirements.txt
+```
 
 ## Business Dashboard
 
