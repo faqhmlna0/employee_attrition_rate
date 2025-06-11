@@ -26,7 +26,7 @@ Untuk proyek ini saya hanya melakukan analisis data saja tanpa menggunakan model
 Setup Environment
 Proyek ini dikembangkan dan dijalankan menggunakan Google Colaboratory (Colab) untuk kemudahan akses cloud, runtime GPU, serta kolaborasi. Namun, seluruh kode dan dependensi telah disusun sedemikian rupa agar tetap dapat dijalankan secara lokal menggunakan Visual Studio Code (VS Code).
 
-Cara Menjalankan di VS Code 
+Cara Menjalankan di VS Code
 - Buat dan aktifkan virtual environment (opsional namun direkomendasikan):
 
 Untuk Linux/Mac:
